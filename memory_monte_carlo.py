@@ -6,6 +6,7 @@ from scipy import misc
 import numpy
 import imageio.v2 as imageio
 
+
 def dot(x,y):
     s = 0
     for i in range(min(len(x), len(y))):
